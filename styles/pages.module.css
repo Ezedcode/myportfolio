@@ -1,0 +1,18 @@
+.pages {
+  color: var(--color0);
+  margin-top: 10vh;
+  animation: animation 0.7s linear;
+}
+
+@keyframes animation {
+  from {
+    opacity: 0;
+    margin-top: -50%;
+  }
+}
+
+@media (min-width: 884px) {
+  .pages {
+    height: 90vh;
+  }
+}
